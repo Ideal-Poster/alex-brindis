@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Homepage from '../components/hompage/hompage';
+import Homepage from '../components/homepage/homepage';
 import Project from '../components/project/project';
 
 import { TransitionGroup, Transition } from "react-transition-group";
