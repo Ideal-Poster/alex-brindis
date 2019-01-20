@@ -1,0 +1,69 @@
+
+@font-face {font-family: "NeuzeitGroteskW01-Regular";
+  src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot");
+  src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.svg#NeuzeitGroteskW01-Regular") format("svg");
+}
+
+
+#homepage__container {
+	padding-top: 120px;
+}
+
+.project {
+  font-family: "GT America Mono";
+  font-weight: 300;
+  color: #212121;
+}
+
+.projects {
+  padding-top: 15px;
+}
+
+.project:hover {
+  color: goldenrod;
+  font-style: italic;
+}
+
+.project > * {
+  margin-top: -19px;
+}
+
+.about {
+  font-family: "GT America Mono";
+  line-height: 22px;
+}
+
+.title__text {
+  font-family: "NeuzeitGroteskW01-Regular";
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.text {
+  font-weight:100;
+}
+
+.title__text, .text {
+  font-size: 16.8px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 767.98px) {
+  .projects{
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project {
+    margin-bottom: 30px;
+  }
+  .projects {
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,59 @@
+.large__image {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#back {
+  position: fixed;
+  top: 42px;
+  right: 50px;
+  font-size: 16.8px;
+  /* font-family: serif; */
+  color: #121212;
+  z-index: 10000;
+}
+
+#project__container {
+  position: relative;
+  /* margin-top: -30px; */
+  /* top: 50vh; */
+  /* transform: translateY(-50%); */
+  max-width: 1200px;
+  padding-top: 130px;
+}
+
+#project__name {
+  font-size: 26.91px;
+}
+
+#project__name, #project__desc, #back {
+  font-family: "GT America Mono";
+}
+
+#project__desc {
+  font-family: "GT America Mono";
+  font-size: 16.8px;
+  line-height: 22px;
+  padding-bottom: 60px ;
+}
+
+.back__arrow {
+  margin-right: 10px;
+  padding-top: 1px;
+}
+
+.back__arrow, .back {
+  display: inline-block;
+}
+
+#overlay {
+	position: absolute;
+	z-index: 2;
+	transform-origin: top;
+  display: block;
+  top: -1.5px;
+	bottom: -1.5px;
+	left: -1.5px;
+  background-color: white;
+  transform-origin: right 0% 0px;
+}
