@@ -4,22 +4,17 @@
 }
 
 #back {
-  position: fixed;
-  top: 42px;
-  right: 50px;
+  /* position: relative; */
+  /* top: 42px; */
+  /* right: 50px; */
   font-size: 16.8px;
-  /* font-family: serif; */
   color: #121212;
   z-index: 10000;
 }
 
 #project__container {
   position: relative;
-  /* margin-top: -30px; */
-  /* top: 50vh; */
-  /* transform: translateY(-50%); */
   max-width: 1200px;
-  padding-top: 130px;
 }
 
 #project__name {
@@ -34,7 +29,6 @@
   font-family: "GT America Mono";
   font-size: 16.8px;
   line-height: 22px;
-  padding-bottom: 60px ;
 }
 
 .back__arrow {
@@ -56,4 +50,9 @@
 	left: -1.5px;
   background-color: white;
   transform-origin: right 0% 0px;
+}
+#email {
+  position: relative;
+  left: 0px;
+  text-align: left;
 }

@@ -6,7 +6,7 @@ import Project from '../components/project/project';
 import { TransitionGroup, Transition } from "react-transition-group";
 
 import {TweenLite, TweenMax} from 'gsap';
-import { projectImageIntro, projectNameIntro, projectDescIntro, projectImageExit, projectNameExit }  from '../routing/routeAnimations'
+import { projectImageIntro, projectImageExit, projectNameExit }  from '../routing/routeAnimations'
 
 const completeCall = target => {
   TweenLite.set(target, { clearProps: "position, width" });

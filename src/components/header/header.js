@@ -7,8 +7,8 @@ import './header.css';
 const Header = () => (
   <div>
     <Row>
-      <div id="name">
-        <h2>Alex Brindis</h2>
+      <div id="name__container">
+        <h2 id="name">Alex Brindis</h2>
       </div>
     </Row>
   </div>

@@ -1,18 +1,5 @@
-
-
 #name {
-  line-height: 1.2;
-  position: fixed;
-}
-
-#name > h2 {
   font-size: 30.274px;
   font-family: "Blender Pro";
   margin-top: -10px;
-}
-
-@media (max-width: 991.98px) {
-  #name {
-    position: relative;
-  }
 }

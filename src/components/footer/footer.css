@@ -3,11 +3,6 @@
   font-size: 16.8px;
 }
 
-#links {
-  position: fixed;
-  bottom: 20px;
-}
-
 #links > a {
   padding-right: 5px;
 }
@@ -21,23 +16,6 @@
   font-style: italic;
 }
 
-#email {
-  position: fixed;
-  bottom: 20px;
-  right: 50px;
-}
-#email, #links, #name {
-  z-index: 1000;
-}
-
-@media (max-width: 767.98px) {
-  #email {
-    position: relative;
-    left: 0px;
-    text-align: left;
-  }
-  #links {
-    position: relative;
-    padding-top: 140px;
-  }
+#links {
+  padding-top: 130px;
 }
