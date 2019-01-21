@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "GT America Mono";
+  src: url('../fonts/GT-America-Mono-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Blender Pro";
+  src: url('../fonts/BlenderPro-Medium.otf');
+}
+@font-face {
+  font-family: "Neuzeit";
+  src: url('../fonts/neuzeit.ttf');
+}
+
 .App{
   color: #212121;
 	padding: 50px;
