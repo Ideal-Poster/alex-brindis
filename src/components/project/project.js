@@ -27,7 +27,6 @@ const Project = (props) => {
         <div id="image__container">
           <div id="overlay"/>
           <img id="image" src={require(`../../img/${index + 1}.jpg`)} alt={project.name} className="large__image"/>
-
         </div>
         </Col>
       </Row>

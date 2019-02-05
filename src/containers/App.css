@@ -39,3 +39,22 @@
 	background-size: cover;
 	background-position: 50% 50%;
 }
+
+body {
+	cursor: url('../assets/light-yellow-cursor.png'), auto !important;
+	z-index: 1000;
+}
+
+a {
+	cursor: url('../assets/dark-yellow-cursor.png'), auto !important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white !important;
+  background: lightgrey  !important;
+}
+
+::selection {
+  color: white !important;
+  background: lightgrey  !important;
+}
