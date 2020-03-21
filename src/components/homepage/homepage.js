@@ -42,7 +42,7 @@ class Homepage extends Component {
             <Row>
               <p className="title__text">About</p>
             </Row>
-            <p className="text about">My name is alex brindis I’m a artist and illustrator from New York. I graduated from Cooper and I think I’m so fancy cause Im charming and wear shoes made out of onion skins. very cool ofi the king leopond.</p>
+            <p className="text about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
           </Col>
         </Row>
         <Footer/>
